@@ -1,0 +1,185 @@
+:root {
+  --primery-color: #2e2f42;
+  --primery-white-color: #ffffff;
+  --accent-color: #4d5ae5;
+  --accent-light-color: #f4f4fd;
+  --text-color: #434455;
+  --text-title-color: #2e2f42;
+  --text-light-color: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11em;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--text-title-color);
+}
+
+/* ------------------Header----------------- */
+
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo:focus,
+.header-logo:hover {
+  border-bottom: 2px solid;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.header-list {
+  font-weight: 600;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+.item-link {
+  color: var(--primery-color);
+}
+
+.item-link:focus,
+.item-link:hover {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+}
+
+.contacts-link {
+  color: var(--text-color);
+}
+
+.contacts-link:focus,
+.contacts-link:hover {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+}
+
+.contacts-item {
+}
+
+/* --------------Hero----------- */
+
+.hero {
+  background-color: var(--primery-color);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07em;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primery-white-color);
+}
+.hero-btn {
+  font-family: inherit;
+  background: var(--accent-color);
+  color: var(--primery-white-color);
+}
+
+/* ---------------Advantages -------------*/
+.advantages {
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+.advantages-item .item-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: var(--primery-color);
+}
+
+/*------------------ Works--------------------- */
+.works-title {
+}
+/* -------------------Team------------------- */
+.team {
+  background-color: var(--accent-loght-color);
+}
+.team-card {
+  background-color: var(--primery-white-color);
+}
+.team-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2em;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-title-color);
+}
+.team-position {
+  line-height: 1.5em;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* -----------------Footer-------------------- */
+.tagline {
+  background-color: var(--primery-color);
+}
+
+.tagline-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-light-color);
+}
+
+.tagline-logo:focus,
+.tagline-logo:hover {
+  border-bottom: 2px solid;
+}
+
+.tagline-text {
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: var(--text-light-color);
+}
